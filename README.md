@@ -9,9 +9,13 @@ Training sets with a large number of individual objects, which lowers neural net
 ## Solution
 This problem is solved by declaring columns sub classes / classes separately of the final class. For example if we needed to identify an individual car, we could simply say identify the the brand. After identifying the brand say it is a BMW we can simply remove all rows from the training set which contain individual car id's which do not belong to a BMW. From there we then can retrain a new neural net algorithm to identify the model type of the BMW, which was previously an impossible task due to the number of options. After identifying the model of BMW, we can now train a new neural net in order to identify the individual car id, this too was previously impossible due to the number of rows with a unique id. 
 
+## Versions
+### rnetf01Compiled.R
+Easy plug and play for any algorithm though it is designed for a neural network. Because this is plug and play you will have to choose your own classification algorithm.
+### RNetf-Lib01.R
+This has a built in full neural network, optimized to work with the generic rnet framework. This is a work in progress and is still in dev.
 
-
-## Usage
+## Usage 
 ```{r}
 mexNet(hiddenMode = 3, final.id = 1, classColumn.range = 2:4, Dat = idenity, inputDat = 0, thres = 0.01 )
 ```
