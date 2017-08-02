@@ -15,6 +15,16 @@ Easy plug and play for any algorithm though it is designed for a neural network.
 ### RNetf-Lib01.R
 This has a built in full neural network, optimized to work with the generic rnet framework. This is a work in progress and is still in dev.
 
+## Installation 
+Rnetf01Compiled.R, Rnetf-Lib01.R and standalonefunctions.R can all be run from R studio by downloading the git but they can also be run using the ```source("")``` command, on a RAW link. 
+#### Examples
+```
+#Call Rnetf-Lib01.R
+source("https://raw.githubusercontent.com/hsamuelson/rnetf/master/RNetf-Lib01.R")
+
+#Call rnetf01Compiled.R
+source("https://raw.githubusercontent.com/hsamuelson/rnetf/master/rnetf01Compiled.R")
+```
 ## Usage 
 ```{r}
 mexNet(hiddenMode = 3, final.id = 1, classColumn.range = 2:4, Dat = idenity, inputDat = 0, thres = 0.01 )
