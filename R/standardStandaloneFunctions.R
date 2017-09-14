@@ -17,6 +17,16 @@
     #standard neuralnet(), function compute()
     #has no input test data processing ability.
 
+#' A ml modular framework
+#'
+#' This function allows you to express your love of cats.
+#' @name rnetf rnetf
+#' @param rnetf type stuff
+#' @keywords neural net
+#' @export
+#' @examples
+#' nCompute()
+#' nTrain()
 if (!require("neuralnet")) install.packages("neuralnet")
 library(neuralnet)
 hiddenSelect <- function(hidd, tDat){ 
