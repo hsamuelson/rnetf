@@ -8,7 +8,7 @@
 #' @examples
 #' rnetf()
 
-
+if (!require("neuralnet")) install.packages("neuralnet")
 library(neuralnet)
 rnetf <- function (
 hiddenMode = 3,
@@ -17,7 +17,6 @@ classColumn.range = 2:4,
 Dat = idenity,
 inputDat = 0,              #has to NOT have both class idenityies, in order to predict them. 
 thres = 0.01 ) {
-  if (!require("neuralnet")) install.packages("neuralnet")
   if(sum(Dat) == 0){
     return("ERROR No Dat: Dat == 0")
   }
