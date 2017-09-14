@@ -1,7 +1,7 @@
 #' A ml modular framework
 #'
 #' This function allows you to express your love of cats.
-#' @name rnetf rnetf
+#' @name rnetf 
 #' @param rnetf type stuff
 #' @keywords neuralnetwork
 #' @export
