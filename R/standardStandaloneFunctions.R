@@ -17,6 +17,8 @@
     #standard neuralnet(), function compute()
     #has no input test data processing ability.
 
+if (!require("neuralnet")) install.packages("neuralnet")
+library(neuralnet)
 hiddenSelect <- function(hidd, tDat){ 
   if(hidd == 1){
     hiddenMode <- round(length(colnames(tDat)) -1)
