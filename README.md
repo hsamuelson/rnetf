@@ -2,7 +2,7 @@
 
 
 ## Description
-Training of neural networks using backpropagation, resilient backpropagation with (Riedmiller, 1994). Using neuralnet package. The package allows flexible settings through custom-choice of error and activation function. Furthermore, the calculation of generalized weights (Intrator O & Intrator N, 1993) is implemented. This package provides a framework to run neural networks and other classification algorithms through a sub-classification regression in order to perfect, and tune accuracy both recall, in the given model.
+Training of neural networks using backpropagation, resilient backpropagation with (Riedmiller, 1994). Using neuralnet package. The package allows flexible settings through custom-choice of error and activation function. Furthermore, the calculation of generalized weights (Intrator O & Intrator N, 1993) is implemented. This package provides a framework to run neural networks and other classification algorithms through a sub-classification regression in order to perfect, and tune both accuracy and recall, in the given model.
 
 ## Problem
 Training sets with a large number of individual objects, which lowers neural net performance.
